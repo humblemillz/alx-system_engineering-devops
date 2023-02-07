@@ -17,7 +17,11 @@ SERVER_CONFIG=\
 		try_files \$uri \$uri/ =404;
 	}
 	if (\$request_filename ~ redirect_me){
+<<<<<<< HEAD
 		rewrite ^ https://www.youtube.com/watch?v=QH2-TGUlwu4 permanent;
+=======
+		rewrite ^ https://sketchfab.com/bluepeno/models permanent;
+>>>>>>> 07738316ae21a45baa64fecc9736e52080a230e8
 	}
 }"
 
